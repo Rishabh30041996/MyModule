@@ -1,0 +1,19 @@
+node_json_data.key_genertaor:
+  path: '/admin/config/node_json_data/apikey'
+  defaults:
+    _form: '\Drupal\node_json_data\Form\UserApiForm'
+    _title: 'User input API key Form'
+  requirements:
+    _permission: 'access administration pages'
+  optons:
+    _admin_route: true
+
+
+node_json_data.key_Controller:
+  path: '/data/{apikey}/{nodeid}'
+  defaults:
+    _controller: '\Drupal\node_json_data\Controller\apiFormController::UniqueKey'
+    _title: 'API key'
+  methods: [GET]
+  requirements:
+    _permission: 'access content'  
