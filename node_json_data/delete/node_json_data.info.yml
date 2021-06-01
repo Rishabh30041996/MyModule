@@ -1,6 +1,0 @@
-name: JSON Node Data
-type: module
-core: '8.x'
-description: 'Gives you Json Data'
-package: JSON Data
-version: 1.0
