@@ -1,0 +1,6 @@
+name: Form Block
+type: module
+core: '8.x'
+description: 'Adding form on sidebar of a page'
+package: Form
+version: 1.0
