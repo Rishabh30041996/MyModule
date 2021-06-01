@@ -1,0 +1,6 @@
+name: Node Generator
+type: module
+core: '8.x'
+description: Multiple Node Generator
+package: Node
+version: 1.0
