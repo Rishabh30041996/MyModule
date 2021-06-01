@@ -1,0 +1,7 @@
+nodeform.form:
+  path: '/forms'
+  defaults:
+    _form: '\Drupal\nodeform\Form\NodeForms'
+    _title: 'Node Forms'
+  requirements:
+    _permission: 'access content'

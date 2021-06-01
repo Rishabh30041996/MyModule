@@ -1,0 +1,6 @@
+name: Node Form
+type: module
+core: '8.x'
+description: Dupal forms with four fields
+package: Node
+version: 1.0
