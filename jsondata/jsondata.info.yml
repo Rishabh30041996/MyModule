@@ -1,0 +1,8 @@
+name: JSON Data
+type: module
+description: Provides Json Data
+core: 8.x
+package: JSON
+version: 1.0
+dependencies:
+- serialization
