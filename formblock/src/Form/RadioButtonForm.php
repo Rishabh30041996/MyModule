@@ -53,7 +53,7 @@ class RadioButtonForm extends FormBase {
     public function submitForm(array &$form, FormStateInterface $form_state) {
         $conn = \Drupal\Core\Database\Database::getConnection();
         $conn->insert('formblock')
-          ->fields(array[
+          ->fields(array:[
             'name' => $form_state->getvalue('name'),
             'feedback' => $form_state->getvalue('radio'),
             'created' => REQUEST_TIME,
