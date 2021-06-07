@@ -18,7 +18,7 @@ class apiFormController extends ControllerBase {
                 [
                     '#type' => 'markup',
                     '#markup' => $this->t('User input API Key is:  '. $userapikey),
-                    'data' => $this->result(),
+                    'data' => $this->show(),
                     'method' => 'GET',
                 ]
             );
@@ -34,7 +34,7 @@ class apiFormController extends ControllerBase {
   
     }
 
-    private function result() {
+    private function show() {
         return [
                 ["id" => 1, "Animal" => "Giant Panda", "Species" => 'Endangered'],
                 ["id" => 2, "Animal" => "Red panda", "Species" => 'Rare'],
